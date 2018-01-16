@@ -2,6 +2,7 @@ library(rvest)
 library(xlsx)
 library(stringr)
 
+
 return_participants_list <- function(html){
 
   html <- read_html(html)
